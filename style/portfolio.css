@@ -38,7 +38,14 @@
 
     background-color:#FFF8F3;
 }
+main section{
+    margin-top:130x;
+    margin-bottom:130px;
+}
+.center{
 
+    text-align:center;
+}
 
 
 
@@ -122,6 +129,7 @@ main{
     text-align:center;
 
     margin-top:130px;
+    
 }
 
 .about-items{
@@ -138,4 +146,22 @@ main{
 .section-description{
     font-size:18px;
     color:#757575;
+    
+}
+
+/* skills section start */
+.skill{
+    padding:30px;
+    box-shadow:0px 6px 50px 0px rgba(0,0,0,0.06);
+    
+}
+
+.skill-container{
+
+    display:flex;
+    gap:24px;
+}
+
+.item-description{
+font-weight:800;
 }
